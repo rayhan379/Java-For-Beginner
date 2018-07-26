@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class Capital_Small_letter {
 
@@ -11,9 +11,13 @@ public class Capital_Small_letter {
 		 {
 			 System.out.println("This is small letter" );
 		 }
+		 else if(letter>='A' && letter<='Z') 
+		 {
+			 System.out.println("This is capital lettter  " );
+		 }
 		 else 
 		 {
-			 System.out.println("This is capital lettter  " ); 
+			 System.out.println("This is  not to be a lettter  " ); 
 		 }
 	}
 
